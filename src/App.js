@@ -16,7 +16,10 @@ function App() {
   } else if (doneCount === totalTasks) {
     taskMessage = 'All tasks are done! :)';
   } else {
-    taskMessage = `Things to do: ${totalTasks - doneCount}`;
+    taskMessage = `You still have ${totalTasks - doneCount} tasks left to do`;
+    if (totalTasks === 1) {
+      taskMessage = `Only ${totalTasks - doneCount} task left to do`;
+    }
     doneStatus = `Done: ${doneCount}`;
   }
 
