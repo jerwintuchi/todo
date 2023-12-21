@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: royalblue;
+    height: 50px;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+}
+
+.todoform {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.todoinput {
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid blue;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.todobutton {
+    width: 75%;
+    border: none;
+    height: 50px;
+    background-color: green;
+    font-size: l.2em;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10cm;
+    transition: background-color 0.3s ease;
+
+}
+
+/* Apply hover effect */
+.todobutton:hover {
+    background-color: darkgreen; /* Change background color on hover */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+
+.todonameDone {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.itemdone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: line-through;
+
+  }
+  
+.todoname {
+    font-style: italic;
+    margin-right: auto;
+  }
+  
+.buttonContainer {
+    display: flex;
+  }
+
+.todoitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+  }
+
+  .doneBackground {
+    background-color: rgb(176, 219, 176);
+  }
+  
+.todoname {
+    font-style: italic;
+    margin-right: auto;
+  }
+  
+.buttonContainer {
+    display: flex;
+  }
+  
+  /* Align buttons to the right */
+.buttonContainer {
+    margin-left: auto;
+  }
+  
+.doneButton {
+    width: 100px;
+    border: none;
+    height: 50px;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    background-color: green;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    border-radius: 10cm;
+  }
+.doneButton:hover {
+    background-color: darkgreen; /* Change background color on hover */
+    color:dark green;
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+  
+.undoButton {
+    width: 100px;
+    border: none;
+    height: 50px;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    background-color: gray;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+.undoButton:hover {
+    background-color: darkgray; /* Change background color on hover */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+
+.deletebutton {
+    width: 100px;
+    border: none;
+    height: 50px;
+    background-color: red;
+    font-size: l.2em;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10cm;
+    transition: background-color 0.3s ease;
+}
+
+/* Apply hover effect */
+.deletebutton:hover {
+    background-color: darkred; /* Change background color on hover */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+
+.todoCounters {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .counter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17.5px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
