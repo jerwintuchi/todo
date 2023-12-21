@@ -19,7 +19,7 @@ This project is a simple Todo List application developed using React. The app al
 
 To run this application locally, follow these steps:
 
-1. Clone this repository: `git clone (https://github.com/jerwintuchi/todo.git)`
+1. Clone this repository: `git clone https://github.com/jerwintuchi/todo.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
