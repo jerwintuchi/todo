@@ -4,10 +4,10 @@ import shortid from 'shortid'
 const Form = ({todo, setTodo, todoList, setTodoList}) => {
 const handleChange = (event) => {
         setTodo(event.target.value);
-        //console.log(todo);
+        //console.log(todo);    
     }
 const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault();//stops refresh
     setTodoList([...todoList, {id: shortid.generate(), name: todo }]);
     console.log(todoList);
     setTodo(""); //reset the input field after adding item to the list
@@ -23,8 +23,8 @@ const handleSubmit = (event) => {
             onChange={handleChange} 
             className={styles.todoinput} 
             placeholder="Add a Todo Task"
-
-            ></input>
+            >   
+            </input>
             <button 
             type="submit" 
             className={styles.todobutton}
